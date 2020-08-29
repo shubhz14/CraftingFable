@@ -1,3 +1,10 @@
 .nav-wrapper{
     background-color:  #9b59b6 ;
 }
+.f-style{
+    font-style: oblique;
+    font-weight: bold;
+}
+.mar{
+    margin: 00px 00px 00px 100px;
+}
