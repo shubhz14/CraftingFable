@@ -17,6 +17,7 @@ a:hover {
 }
 .row {
   overflow: auto;
+  cursor: grab;
   width: 100%;
 }
 .row__inner {
