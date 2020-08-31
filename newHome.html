@@ -6,43 +6,41 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
+<link rel="stylesheet" href="css/style.css">
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Crafting Fable | Welcome</title>
 </head>
 <body>
-    <nav class="red" style="padding:0px 10px; position: fixed;">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Web Zone</a>
-    
-            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
-                <i class="material-icons">menu</i>
-            </a>
-    
-            <ul class="right hide-on-med-and-down "  >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Video</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    
-    
-    <ul class="sidenav" id="mobile-nav">
-            <li><a href="#">Home</a></li>
-                <li><a href="#">Video</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-    </ul>
+    <section class="fnavbar">
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo f-style mar">Crafting Fable</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+              <i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="home.html"><i class="material-icons left">home</i>HOME</a></li>
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="about.html"><i class="material-icons left">assignment_ind</i>ABOUT US</a></li>
+                <li><a href="contact.html"><i class="material-icons left">call_end</i>CONTACT US</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+    </section>
 
     <script>
         $(document).ready(function () {
-  $(".sidenav").sidenav();
-});
+        $(".sidenav").sidenav();
+    });
 
     </script>
 </body>
